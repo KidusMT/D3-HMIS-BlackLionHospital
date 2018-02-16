@@ -1,0 +1,134 @@
+{
+  "name": "AAU Governing Board",
+  "parent": "null",
+  "children":[
+    {
+      "name": "AAU President",
+      "parent": "AAU Governing Board",
+      "children": [
+        {
+          "name": "TASH Governing Board",
+          "parent":"AAU President",
+          "children": [
+            {
+              "name": "OED for CHS with BP rank",
+              "parent":"TASH Governing Board",
+              "children":[
+                {
+                  "name":"D for research",
+                  "parent":"OED for CHS with BP rank",
+                  "children":[]
+                },
+                {
+                  "name":"D for Clinical service",
+                  "parent":"OED for CHS with BP rank",
+                  "_children":[
+                    {
+                      "name":"D nursing",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    },
+                    {
+                      "name":"Clinical Dept",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    },
+                    {
+                      "name":"D Pharmacy & medical supply",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    },
+                    {
+                      "name":"D Diagnostics",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    },
+                    {
+                      "name":"D OPD",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    },
+                    {
+                      "name":"D Operation Theater",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    },
+                    {
+                      "name":"D Biomedical",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    },
+                    {
+                      "name":"D Emergency",
+                      "parent":"D for Clinical service",
+                      "children":[]
+                    }
+                  ]
+                },
+                {
+                  "name":"Director for Academic affair",
+                  "parent":"OED for CHS with BP rank",
+                  "_children":[
+                    {
+                      "name":"Associate Director",
+                      "parent":"Director for Academic affair",
+                      "children":[]
+                    },
+                    {
+                      "name":"All school Dean",
+                      "parent":"Director for Academic affair",
+                      "children":[]
+                    },
+                    {
+                      "name":"Non Clinical Dpt",
+                      "parent":"Director for Academic affair",
+                      "children":[]
+                    }
+                  ]
+                },
+                {
+                  "name":"D for business dev't & admin",
+                  "parent":"OED for CHS with BP rank",
+                  "_children":[
+                    {
+                      "name":"Budget & finance",
+                      "parent":"D for business dev't & admin",
+                      "children":[]
+                    },
+                    {
+                      "name":"General service",
+                      "parent":"D for business dev't & admin",
+                      "children":[]
+                    },
+                    {
+                      "name":"Property admin & resource mobilization",
+                      "parent":"D for business dev't & admin",
+                      "children":[]
+                    },
+                    {
+                      "name":"HRM & Dev't",
+                      "parent":"Director for business development and adminstration",
+                      "children":[]
+                    },
+                    {
+                      "name":" Procurement",
+                      "parent":"Director for business development and adminstration",
+                      "children":[]
+                    },
+                    {
+                      "name":"Student affair",
+                      "parent":"Director for business development and adminstration",
+                      "children":[]
+                    }
+
+                  ]
+                }
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
