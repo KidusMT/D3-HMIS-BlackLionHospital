@@ -1,5 +1,3 @@
-
-
 data = {
     "name": "AAU Board",
     "full_name": "Addis Ababa University Board",

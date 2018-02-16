@@ -1,0 +1,52 @@
+ body {
+     background: rgb(102, 102, 102);
+     color: #000 !important;
+ }
+
+ .node {
+     cursor: pointer;
+ }
+
+ .node rect {
+     fill: rgb(37, 145, 161);
+     stroke: steelblue;
+     stroke-width: 2px;
+ }
+
+ .node text {
+     font: 12px sans-serif;
+     fill: #000;
+ }
+
+ .link {
+     fill: none;
+     stroke: #ccc;
+     stroke-width: 2px;
+ }
+
+ .tree {
+     margin-bottom: 10px;
+     overflow: auto;
+ }
+
+ #panel {
+     background-color: rgb(37, 145, 161);
+     border-radius: 10px;
+ }
+
+ #panel h1 {
+     background: rgb(45, 155, 168);
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     padding: 5px;
+ }
+
+ #panel p {
+     background: rgb(45, 155, 168);
+     font-weight: bold;
+ }
+
+ #panel p:last-child {
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
