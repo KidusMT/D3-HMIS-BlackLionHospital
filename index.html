@@ -46,16 +46,21 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
 <body>
+    <div class="row">
+    <div class="col-md-10" id="tree">
 
-    <div id="tree">
-
+    </div>
+    <div class="col-md-2" id="panel">
+        <h1 id="title"></h1>
+        <p id="desc"></p>
+    </div>
     </div>
     <script>
         $(document).ready(function () {
             //build tree
             function BuildVerticaLTree(treeData, treeContainerDom) {
                 var margin = { top: 60, right: 10, bottom: 0, left: 10 };
-                var width = 1350 - margin.right - margin.left;//width of the svg canvas
+                var width = 1340 - margin.right - margin.left;//width of the svg canvas
                 var height = 1250 - margin.top - margin.bottom;//height of the svg canvas
 
 
@@ -92,7 +97,7 @@
                             return "translate(" + source.x0 + "," + source.y0 + ")";
                         }).on("click", nodeclick);
                     nodeEnter.append("rect")
-                        .attr("width", 90)
+                        .attr("width", 120)
                         .attr("height", 20)
                         .attr("rx", 5)
                         .attr("ry", 5)
@@ -102,7 +107,7 @@
                     //.style("fill", "#fff");
                     nodeEnter.append("text")
                         .attr("y", function (d) { return d.children || d._children ? 1 : 1; })//d.childern->for children, d._children-> for grandchildren
-                        .attr("x", function (d) { return d.children || d._children ? 45 : 45; })//d.childern->for children, d._children-> for grandchildren
+                        .attr("x", function (d) { return d.children || d._children ? 60 : 60; })//d.childern->for children, d._children-> for grandchildren
                         .attr("dy", "1em")
                         .attr("text-anchor", "middle")
                         .text(function (d) { return d.name; })
@@ -111,9 +116,9 @@
                     //horizontal tree
                     var nodeUpdate = node.transition()
                         .duration(duration)
-                        .attr("transform", function (d) { return "translate(" + (d.x - 45) + "," + d.y + ")"; });
+                        .attr("transform", function (d) { return "translate(" + (d.x - 60) + "," + d.y + ")"; });
                     nodeUpdate.select("rect")
-                        .attr("width", 90)
+                        .attr("width", 120)
                         .attr("height", 20)
                         .style("fill", function (d) { return d._children ? "lightteal" : "#2591a1"; });
                     nodeUpdate.select("text")
@@ -162,6 +167,9 @@
 
                 // Toggle children on click.
                 function nodeclick(d) {
+                    $("#title").replaceWith('<h1 id="title">'+d.full_name+"</h1>");
+                    $("#desc").replaceWith('<p id="desc">' + d.description + "</p>");
+
                     if (d.children) {
                         d._children = d.children;
                         d.children = null;
@@ -184,124 +192,174 @@
             var treeData =
                 {
                     "name": "AAU Board",
+                    "full_name":"Addis Ababa University Board",
                     "parent": "null",
+                    "description":"",
                     "children": [
                         {
                             "name": "President",
+                             "full_name": "AAU Office of the President",
                             "parent": "AAU Board",
+                             "description": "",
                             "children": [
                                 {
                                     "name": "TASH Board",
+                                     "full_name": "TASH Governing Board",
                                     "parent": "President",
+                                     "description": "",
                                     "children": [
                                         {
                                             "name": "OED for CHS",
+                                             "full_name": "OED for CHS with BP rank",
                                             "parent": "TASH Board",
+                                             "description": "",
                                             "children": [
                                                 {
-                                                    "name": "D for research",
+                                                    "name": "Dir research",
+                                                     "full_name": "Director for Research",
                                                     "parent": "OED for CHS",
+                                                     "description": "",
                                                     "children": []
                                                 },
                                                 {
-                                                    "name": "D.Clinical",
+                                                    "name": "Dir. Clinical",
+                                                     "full_name": "Director for Clinical Services",
                                                     "parent": "OED for CHS",
+                                                     "description": "",
                                                     "_children": [
                                                         {
-                                                            "name": "nursing",
-                                                            "parent": "D.Clinical",
+                                                            "name": "Nursing",
+                                                            "full_name": "Nursing Directorate",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
-                                                            "name": "Clinical D.",
-                                                            "parent": "D.Clinical",
+                                                            "name": "Clinical Dep.",
+                                                            "full_name": "Clinical Departments",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
-                                                            "name": "Phar. & med.",
-                                                            "parent": "D.Clinical",
+                                                            "name": "Pharmacy",
+                                                            "full_name": "Pharmacy and Medical Supplies Directorate",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
-                                                            "name": "Diag.",
-                                                            "parent": "D.Clinical",
+                                                            "name": "Diagnostics",
+                                                            "full_name": "Diagnostics Directorate",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "OPD",
-                                                            "parent": "D.Clinical",
+                                                            "full_name": "Outpatient Directorate",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "OR",
-                                                            "parent": "D.Clinical",
+                                                            "full_name": "Operation Theatre Directorate",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
-                                                            "name": "Biomed",
-                                                            "parent": "D.Clinical",
+                                                            "name": "Biomedical",
+                                                            "full_name": "Biomedical Directorate",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "ER",
-                                                            "parent": "D.Clinical",
+                                                            "full_name": "Emergency Directorate",
+                                                            "parent": "Dir. Clinical",
+                                                             "description": "",
                                                             "children": []
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "name": "D.Academic",
+                                                    "name": "Dir. Academic",
+                                                    "full_name": "Director for Academic Affairs",
                                                     "parent": "OED for CHS",
+                                                     "description": "",
                                                     "_children": [
                                                         {
                                                             "name": "Associate D.",
-                                                            "parent": "D.Academic",
+                                                            "full_name": "Assiciate Director for Academic Standards and Staff Affairs",
+                                                            "parent": "Dir. Academic",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "All school D.",
-                                                            "parent": "D.Academic",
+                                                            "full_name": "All School Deans",
+                                                            "parent": "Dir. Academic",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Non-Clinical",
-                                                            "parent": "D.Academic",
+                                                            "full_name": "Non-Clinical Departments",
+                                                            "parent": "Dir. Academic",
+                                                             "description": "",
                                                             "children": []
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "name": "D.Business",
+                                                    "name": "Dir. Business",
+                                                    "full_name": "Director for Business Development and Adminsitration",
                                                     "parent": "OED for CHS",
+                                                     "description": "",
                                                     "_children": [
                                                         {
                                                             "name": "Budget & finance",
-                                                            "parent": "D.Business",
+                                                            "full_name": "Budget and Finances",
+                                                            "parent": "Dir. Business",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "General service",
-                                                            "parent": "D.Business",
+                                                            "full_name": "General Services",
+                                                            "parent": "Dir. Business",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Property & resource",
-                                                            "parent": "D.Business",
+                                                            "full_name": "Property Adminstration and Resource Management",
+                                                            "parent": "Dir. Business",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "HRM & Dev't",
-                                                            "parent": "D.Business",
+                                                            "full_name": "HRM and Development",
+                                                            "parent": "Dir. Business",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": " Procurement",
-                                                            "parent": "D.Business",
+                                                            "full_name": "Procurement",
+                                                            "parent": "Dir. Business",
+                                                             "description": "",
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Student affair",
-                                                            "parent": "D.Business",
+                                                            "full_name": "Student Affairs",
+                                                            "parent": "Dir. Business",
+                                                             "description": "",
                                                             "children": []
                                                         }
 
