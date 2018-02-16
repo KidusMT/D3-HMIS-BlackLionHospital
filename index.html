@@ -11,7 +11,7 @@
     }
 
     .node rect {
-        fill:rgb(37, 145, 161);
+        fill: rgb(37, 145, 161);
         stroke: steelblue;
         stroke-width: 2px;
     }
@@ -37,6 +37,30 @@
         margin-bottom: 10px;
         overflow: auto;
     }
+
+    #panel {
+        background-color:rgb(37, 145, 161);
+        border-radius: 10px;
+        
+    }
+    #panel h1 {
+        background: rgb(45, 155, 168);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding:5px;
+    }
+
+    #panel p {
+        background: rgb(45, 155, 168);
+        font-weight: bold;  
+    }
+    #panel p:last-child {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    body{
+        color:#000 !important;
+    }
 </style>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
@@ -47,13 +71,22 @@
 
 <body>
     <div class="row">
-    <div class="col-md-10" id="tree">
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="row">
+        <div class="col-md-8" id="tree">
 
-    </div>
-    <div class="col-md-2" id="panel">
-        <h1 id="title"></h1>
-        <p id="desc"></p>
-    </div>
+        </div>
+        <div class="col-md-3" id="panel">
+            <h1 id="title">Addis Ababa University Board</h1>
+            <p id="info"></p>
+            <p id="contact_name">Name:</p>
+            <p id="phone">Phone:</p>
+        </div>
+        <div class="col-md-1"></div>
     </div>
     <script>
         $(document).ready(function () {
@@ -167,8 +200,10 @@
 
                 // Toggle children on click.
                 function nodeclick(d) {
-                    $("#title").replaceWith('<h1 id="title">'+d.full_name+"</h1>");
-                    $("#desc").replaceWith('<p id="desc">' + d.description + "</p>");
+                    $("#title").replaceWith('<h1 id="title">' + d.full_name + "</h1>");
+                    $("#info").replaceWith('<p id="info">' + d.description[0].info + "</p>");
+                    $("#contact_name").replaceWith('<p id="contact_name">Name: ' + d.description[0].contact_name + "</p>");
+                    $("#phone").replaceWith('<p id="phone">Phone: ' + d.description[0].phone + "</p>");
 
                     if (d.children) {
                         d._children = d.children;
@@ -192,95 +227,100 @@
             var treeData =
                 {
                     "name": "AAU Board",
-                    "full_name":"Addis Ababa University Board",
+                    "full_name": "Addis Ababa University Board",
                     "parent": "null",
-                    "description":"",
+                    "description": [{"info":"","contact_name": "","phone": "", },],
                     "children": [
                         {
                             "name": "President",
-                             "full_name": "AAU Office of the President",
+                            "full_name": "AAU Office of the President",
                             "parent": "AAU Board",
-                             "description": "",
+                            "description": [{"info":"","contact_name": "","phone": "", },],
                             "children": [
                                 {
                                     "name": "TASH Board",
-                                     "full_name": "TASH Governing Board",
+                                    "full_name": "TASH Governing Board",
                                     "parent": "President",
-                                     "description": "",
+                                    "description": [{"info":"","contact_name": "","phone": "", },],
                                     "children": [
                                         {
                                             "name": "OED for CHS",
-                                             "full_name": "OED for CHS with BP rank",
+                                            "full_name": "OED for CHS with BP rank",
                                             "parent": "TASH Board",
-                                             "description": "",
+                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                             "children": [
                                                 {
                                                     "name": "Dir research",
-                                                     "full_name": "Director for Research",
+                                                    "full_name": "Director for Research",
                                                     "parent": "OED for CHS",
-                                                     "description": "",
+                                                    "description": [{"info":"","contact_name": "","phone": "", },],
                                                     "children": []
                                                 },
                                                 {
                                                     "name": "Dir. Clinical",
-                                                     "full_name": "Director for Clinical Services",
+                                                    "full_name": "Director for Clinical Services",
                                                     "parent": "OED for CHS",
-                                                     "description": "",
+                                                    "description": [{"info":"","contact_name": "","phone": "", },],
                                                     "_children": [
                                                         {
                                                             "name": "Nursing",
                                                             "full_name": "Nursing Directorate",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "Sister Sara","phone": "0913017215", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Clinical Dep.",
                                                             "full_name": "Clinical Departments",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Pharmacy",
                                                             "full_name": "Pharmacy and Medical Supplies Directorate",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{
+                                                                "info":"",
+                                                                "contact_name": "Mr. Bizuayehu",
+                                                                "phone": "0911803341",
+                                                            },
+                                                            ],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Diagnostics",
                                                             "full_name": "Diagnostics Directorate",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "OPD",
                                                             "full_name": "Outpatient Directorate",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "OR",
                                                             "full_name": "Operation Theatre Directorate",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "Mr. Yesuf","phone": " 0913109671", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Biomedical",
                                                             "full_name": "Biomedical Directorate",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "ER",
                                                             "full_name": "Emergency Directorate",
                                                             "parent": "Dir. Clinical",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         }
                                                     ]
@@ -289,27 +329,27 @@
                                                     "name": "Dir. Academic",
                                                     "full_name": "Director for Academic Affairs",
                                                     "parent": "OED for CHS",
-                                                     "description": "",
+                                                    "description": [{"info":"","contact_name": "","phone": "", },],
                                                     "_children": [
                                                         {
                                                             "name": "Associate D.",
                                                             "full_name": "Assiciate Director for Academic Standards and Staff Affairs",
                                                             "parent": "Dir. Academic",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "All school D.",
                                                             "full_name": "All School Deans",
                                                             "parent": "Dir. Academic",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Non-Clinical",
                                                             "full_name": "Non-Clinical Departments",
                                                             "parent": "Dir. Academic",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         }
                                                     ]
@@ -318,48 +358,48 @@
                                                     "name": "Dir. Business",
                                                     "full_name": "Director for Business Development and Adminsitration",
                                                     "parent": "OED for CHS",
-                                                     "description": "",
+                                                    "description": [{"info":"","contact_name": "","phone": "", },],
                                                     "_children": [
                                                         {
                                                             "name": "Budget & finance",
                                                             "full_name": "Budget and Finances",
                                                             "parent": "Dir. Business",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "General service",
                                                             "full_name": "General Services",
                                                             "parent": "Dir. Business",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "","phone": "", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Property & resource",
                                                             "full_name": "Property Adminstration and Resource Management",
                                                             "parent": "Dir. Business",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "Selam","phone": "0910356992", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "HRM & Dev't",
                                                             "full_name": "HRM and Development",
                                                             "parent": "Dir. Business",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "Mr. Tamrat Siyum ","phone": "0911998348 ", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": " Procurement",
-                                                            "full_name": "Procurement",
+                                                            "full_name": "Department of Procurement",
                                                             "parent": "Dir. Business",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "Ms Emawash","phone": "0911839630", },],
                                                             "children": []
                                                         },
                                                         {
                                                             "name": "Student affair",
                                                             "full_name": "Student Affairs",
                                                             "parent": "Dir. Business",
-                                                             "description": "",
+                                                            "description": [{"info":"","contact_name": "Ato Tesfaye","phone": "0932250662", },],
                                                             "children": []
                                                         }
 
