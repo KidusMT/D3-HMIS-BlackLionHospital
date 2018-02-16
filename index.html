@@ -12,7 +12,7 @@
         .node rect {
             fill: #fff;
             stroke: steelblue;
-            stroke-width: 3px;
+            stroke-width: 2px;
         }
 
         /* .node circle {
@@ -23,7 +23,7 @@
 
         .node text {
             font: 12px sans-serif;
-            fill: #fff;
+            fill: #000;
         }
 
         .link {
@@ -37,8 +37,16 @@
             overflow: auto;
         }
     </style>
-    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <script
+        src="https://code.jquery.com/jquery-1.10.1.min.js"
+        integrity="sha256-SDf34fFWX/ZnUozXXEH0AeB+Ip3hvRsjLwp6QNTEb3k="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+
 <body>
 
 <div id="tree">
@@ -86,10 +94,10 @@
                         return "translate(" + source.x0 + "," + source.y0 + ")";
                     }).on("click", nodeclick);
                 nodeEnter.append("rect")
-                    .attr("width", 70)
+                    .attr("width", 90)
                     .attr("height", 20)
-                    .attr("stroke", function (d) { return d.children || d._children ? "steelblue" : "#fff"; })
-                    .style("fill", function (d) { return d.children || d._children ? "lightsteelblue" : "#00c13f"; });
+                    .attr("stroke", function (d) { return d.children || d._children ? "steelblue" : "#2591a1"; })
+                    .style("fill", function (d) { return d.children || d._children ? "lightteal" : "#2591a1"; });
                 //.attr("r", 10)
                 //.style("fill", "#fff");
                 nodeEnter.append("text")
@@ -105,9 +113,9 @@
                     .duration(duration)
                     .attr("transform", function (d) { return "translate(" + (d.x-35) + "," + d.y + ")"; });
                 nodeUpdate.select("rect")
-                    .attr("width", 70)
+                    .attr("width", 100)
                      .attr("height", 20)
-                    .style("fill", function (d) { return d._children ? "lightsteelblue" : "#00c13f"; });
+                    .style("fill", function (d) { return d._children ? "lightteal" : "#2591a1"; });
                 nodeUpdate.select("text")
                     .style("fill-opacity", 1);
 
