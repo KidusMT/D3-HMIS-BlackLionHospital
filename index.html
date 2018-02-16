@@ -94,13 +94,15 @@
                     nodeEnter.append("rect")
                         .attr("width", 90)
                         .attr("height", 20)
+                        .attr("rx",5)
+                        .attr("ry", 5)
                         .attr("stroke", function (d) { return d.children || d._children ? "steelblue" : "#2591a1"; })
                         .style("fill", function (d) { return d.children || d._children ? "lightteal" : "#2591a1"; });
                     //.attr("r", 10)
                     //.style("fill", "#fff");
                     nodeEnter.append("text")
                         .attr("y", function (d) { return d.children || d._children ? 1 : 1; })//d.childern->for children, d._children-> for grandchildren
-                        .attr("x", function (d) { return d.children || d._children ? 35 : 35; })//d.childern->for children, d._children-> for grandchildren
+                        .attr("x", function (d) { return d.children || d._children ? 45 : 45; })//d.childern->for children, d._children-> for grandchildren
                         .attr("dy", "1em")
                         .attr("text-anchor", "middle")
                         .text(function (d) { return d.name; })
@@ -109,9 +111,9 @@
                     //horizontal tree
                     var nodeUpdate = node.transition()
                         .duration(duration)
-                        .attr("transform", function (d) { return "translate(" + (d.x - 35) + "," + d.y + ")"; });
+                        .attr("transform", function (d) { return "translate(" + (d.x - 45) + "," + d.y + ")"; });
                     nodeUpdate.select("rect")
-                        .attr("width", 100)
+                        .attr("width", 90)
                         .attr("height", 20)
                         .style("fill", function (d) { return d._children ? "lightteal" : "#2591a1"; });
                     nodeUpdate.select("text")
