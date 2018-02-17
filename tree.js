@@ -106,7 +106,7 @@ $(document).ready(function () {
 
         // Toggle children on click.
         function nodeclick(d) {
-            $("#title").replaceWith('<h1 id="title">' + d.full_name + "</h1>");
+            $("#title").replaceWith('<h4 id="title">' + d.full_name + "</h4>");
             $("#info").replaceWith('<p id="info">' + d.description[0].info + "</p>");
             $("#contact_name").replaceWith('<p id="contact_name">Name: ' + d.description[0].contact_name + "</p>");
             $("#phone").replaceWith('<p id="phone">Phone: ' + d.description[0].phone + "</p>");
