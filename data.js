@@ -82,86 +82,86 @@ data = {
                                                     "phone": "0913017215"
                                                 }
                                             ],
-                                           
+
                                             "_children": [
-														{
-				                                            "name": "Outpatient",
-				                                            "full_name": "Outpatient nurse coordinator",
-				                                            "parent": "Nursing",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                     	{
-				                                            "name": "Inpatient",
-				                                            "full_name": "Inpatient nurse coordinator",
-				                                            "parent": "Nursing",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                        {
-				                                            "name": "OR",
-				                                            "full_name": "Operating Theatre nurse coordinator",
-				                                            "parent": "Nursing",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                        {
-				                                            "name": "Management",
-				                                            "full_name": "Nurse Management council",
-				                                            "parent": "Nursing",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                     	{
-				                                            "name": "ER coordinator",
-				                                            "full_name": "Emergency Nurse coordinator",
-				                                            "parent": "Nursing",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                        {
-				                                            "name": "Supervisor",
-				                                            "full_name": "Nurse Supervisor Office",
-				                                            "parent": "Nursing",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        }
+                                                {
+                                                    "name": "Outpatient",
+                                                    "full_name": "Outpatient nurse coordinator",
+                                                    "parent": "Nursing",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Inpatient",
+                                                    "full_name": "Inpatient nurse coordinator",
+                                                    "parent": "Nursing",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "OR",
+                                                    "full_name": "Operating Theatre nurse coordinator",
+                                                    "parent": "Nursing",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Management",
+                                                    "full_name": "Nurse Management council",
+                                                    "parent": "Nursing",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "ER coordinator",
+                                                    "full_name": "Emergency Nurse coordinator",
+                                                    "parent": "Nursing",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Supervisor",
+                                                    "full_name": "Nurse Supervisor Office",
+                                                    "parent": "Nursing",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                }
 
 
                                             ]
@@ -191,110 +191,110 @@ data = {
                                                 }
                                             ],
                                             "_children": [
-														{
-				                                            "name": "Outpatient",
-				                                            "full_name": "Outpatient case team",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "Molla",
-				                                                    "phone": "0911332498"
-				                                                }
-				                                            ],
-				                                            "_children": []
-				                                        },
-				                                     	{
-				                                            "name": "Inpatient",
-				                                            "full_name": "Inpatient case team",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "Berhanu ",
-				                                                    "contact_name": "Berhanu",
-				                                                    "phone": "0912113944"
-				                                                }
-				                                            ],
-				                                            "_children": []
-				                                        },
-				                                        {
-				                                            "name": "Emergency",
-				                                            "full_name": "Emergency case team",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "Weldtinsea",
-				                                                    "phone": "0913683307"
-				                                                }
-				                                            ],
-				                                            "_children": []
-				                                        },
-				                                        {
-				                                            "name": "Oncology",
-				                                            "full_name": "Oncology case team",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "Lidia ",
-				                                                    "phone": "0913146570"
-				                                                }
-				                                            ],
-				                                            "_children": []
-				                                        },
-				                                     	{
-				                                            "name": "supply & mngt",
-				                                            "full_name": "Drug supply and Management case team",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "Mr. Bizuayehu",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "_children": []
-				                                        },
-				                                        {
-				                                            "name": "Research",
-				                                            "full_name": "Research Education and Reduce Policy Case team",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "kaleab",
-				                                                    "phone": "0912401783"
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                        {
-				                                            "name": "C.Pharmacy",
-				                                            "full_name": "Clinical Pharmacy case team",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "sofia ",
-				                                                    "phone": "0911031231"
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                        {
-				                                            "name": "Compounding",
-				                                            "full_name": "Compounding and small scale",
-				                                            "parent": "Pharmacy",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "Mr. Bizuayehu",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        }
+                                                {
+                                                    "name": "Outpatient",
+                                                    "full_name": "Outpatient case team",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "Molla",
+                                                            "phone": "0911332498"
+                                                        }
+                                                    ],
+                                                    "_children": []
+                                                },
+                                                {
+                                                    "name": "Inpatient",
+                                                    "full_name": "Inpatient case team",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "Berhanu ",
+                                                            "contact_name": "Berhanu",
+                                                            "phone": "0912113944"
+                                                        }
+                                                    ],
+                                                    "_children": []
+                                                },
+                                                {
+                                                    "name": "Emergency",
+                                                    "full_name": "Emergency case team",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "Weldtinsea",
+                                                            "phone": "0913683307"
+                                                        }
+                                                    ],
+                                                    "_children": []
+                                                },
+                                                {
+                                                    "name": "Oncology",
+                                                    "full_name": "Oncology case team",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "Lidia ",
+                                                            "phone": "0913146570"
+                                                        }
+                                                    ],
+                                                    "_children": []
+                                                },
+                                                {
+                                                    "name": "supply & mngt",
+                                                    "full_name": "Drug supply and Management case team",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "Mr. Bizuayehu",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "_children": []
+                                                },
+                                                {
+                                                    "name": "Research",
+                                                    "full_name": "Research Education and Reduce Policy Case team",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "kaleab",
+                                                            "phone": "0912401783"
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "C.Pharmacy",
+                                                    "full_name": "Clinical Pharmacy case team",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "sofia ",
+                                                            "phone": "0911031231"
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Compounding",
+                                                    "full_name": "Compounding and small scale",
+                                                    "parent": "Pharmacy",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "Mr. Bizuayehu",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                }
 
 
                                             ]
@@ -310,7 +310,47 @@ data = {
                                                     "phone": ""
                                                 }
                                             ],
-                                            "children": []
+                                            "_children": [
+                                                {
+                                                    "name": "Laboratory",
+                                                    "full_name": "Laboratory",
+                                                    "parent": "Diagnostics",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Pathology",
+                                                    "full_name": "Pathology",
+                                                    "parent": "Diagnostiscs",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Radiology",
+                                                    "full_name": "Radiology",
+                                                    "parent": "Diagnostiscs",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                }
+                                            ]
                                         },
                                         {
                                             "name": "OPD",
@@ -328,128 +368,128 @@ data = {
                                                     "name": " Triage ",
                                                     "full_name": "Central Triage ",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "_children":[
-                                                       {
-                                                          
+                                                    "_children": [
+                                                        {
+
                                                             "name": "Adult ",
                                                             "full_name": "Adult",
                                                             "parent": "Central Traiage",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
 
-                                                       },
-                                                       {
-                                                          
+                                                        },
+                                                        {
+
                                                             "name": "Pediatric ",
                                                             "full_name": "Pediatric ",
                                                             "parent": "Central Traiage",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
 
-                                                         }
+                                                        }
                                                     ]
                                                 },
                                                 {
                                                     "name": "ENT ",
                                                     "full_name": "ENT",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "children":[]
+                                                    "children": []
                                                 },
                                                 {
                                                     "name": "Surgery ",
                                                     "full_name": "Surgery case team ",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "_children":[
+                                                    "_children": [
                                                         {
-                                                          
+
                                                             "name": "General ",
                                                             "full_name": "General",
                                                             "parent": "Surgery ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
 
-                                                       },
-                                                       {
-                                                          
+                                                        },
+                                                        {
+
                                                             "name": "Chest ",
                                                             "full_name": "Chest",
                                                             "parent": "Surgery ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
-                                                       },
-                                                       {
-                                                            
+                                                            "children": []
+                                                        },
+                                                        {
+
                                                             "name": "Neurology ",
                                                             "full_name": "Neurology",
                                                             "parent": "Surgery ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
-                                                          
+
                                                             "name": "Urology ",
                                                             "full_name": "Urology",
                                                             "parent": "Surgery ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
-                                                       }
+                                                            "children": []
+                                                        }
 
                                                     ]
                                                 },
@@ -457,156 +497,156 @@ data = {
                                                     "name": "Dialysis ",
                                                     "full_name": "Dialysis ",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "children":[]
+                                                    "children": []
                                                 },
                                                 {
                                                     "name": "Intenal Medicine ",
                                                     "full_name": "INternal Medicine case team ",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "_children":[
+                                                    "_children": [
                                                         {
                                                             "name": "Neurology ",
                                                             "full_name": "Neurology and Rheumatology",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Dermatology ",
                                                             "full_name": "Dermatology",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Nuclear ",
                                                             "full_name": "Nuclear Medicine",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "SCOPE ",
                                                             "full_name": "SCOPE",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Cardial ",
                                                             "full_name": "Cardial",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Chest ",
                                                             "full_name": "Chest",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "ART ",
                                                             "full_name": "ART",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Psychiatry ",
                                                             "full_name": "Psychiatry",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Diabetes ",
                                                             "full_name": "Diabetes",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Renal ",
                                                             "full_name": "Renal and Palliative care",
                                                             "parent": "Intenal Medicine ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         }
                                                     ]
                                                 },
@@ -614,148 +654,148 @@ data = {
                                                     "name": "Orthopedics ",
                                                     "full_name": "Oprthopedics ",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "_children":[
+                                                    "_children": [
                                                         {
-                                                          
+
                                                             "name": "Adult ",
                                                             "full_name": "Adult",
                                                             "parent": "Orthopedics",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
 
-                                                       },
-                                                       {
-                                                          
+                                                        },
+                                                        {
+
                                                             "name": "Pediatric ",
                                                             "full_name": "Pediatric ",
                                                             "parent": "Orthopedics",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
 
-                                                         }
+                                                        }
                                                     ]
                                                 },
                                                 {
                                                     "name": "Pediatric  ",
                                                     "full_name": "Pediatric Case Team",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "_children":[
+                                                    "_children": [
                                                         {
                                                             "name": "Cardial ",
                                                             "full_name": "Carsial and Renal",
                                                             "parent": "Pediatric",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "ART-Chest ",
                                                             "full_name": "ART-Chest",
                                                             "parent": "Pediatric ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Hematology ",
                                                             "full_name": "Hematology",
                                                             "parent": "Pediatric ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "EPI & GI ",
                                                             "full_name": "EPI and GI",
                                                             "parent": "Pediatric ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "infant ",
                                                             "full_name": "High risk infant",
                                                             "parent": "Pediatric ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "surgery ",
                                                             "full_name": "Pediatric surgery ",
                                                             "parent": "Pediatric",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Neurology ",
                                                             "full_name": "Neurology and rheumatology",
                                                             "parent": "Pediatric ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         }
                                                     ]
                                                 },
@@ -763,39 +803,39 @@ data = {
                                                     "name": "Oncology ",
                                                     "full_name": "Oncology case team",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "_children":[
+                                                    "_children": [
                                                         {
                                                             "name": "Day care ",
                                                             "full_name": "Day care",
                                                             "parent": "Oncology ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Radiotherapy ",
                                                             "full_name": "Radiotherapy",
                                                             "parent": "Oncology ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
 
                                                     ]
@@ -804,39 +844,39 @@ data = {
                                                     "name": "GYN Obs ",
                                                     "full_name": "GYN Obs Case team",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "_children":[
+                                                    "_children": [
                                                         {
                                                             "name": "Day care ",
                                                             "full_name": "Day care",
                                                             "parent": "GYN Obs ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         },
                                                         {
                                                             "name": "Regular ",
                                                             "full_name": "Regular",
                                                             "parent": "GYN Obs ",
-                                                            "description":[
+                                                            "description": [
                                                                 {
-                                                                    "info":"",
-                                                                    "contact_name":"",
-                                                                    "phone":""
+                                                                    "info": "",
+                                                                    "contact_name": "",
+                                                                    "phone": ""
                                                                 }
                                                             ],
-                                                            "children":[]
+                                                            "children": []
                                                         }
                                                     ]
                                                 },
@@ -844,14 +884,14 @@ data = {
                                                     "name": "Physiotherapy ",
                                                     "full_name": "Physiotherapy ",
                                                     "parent": "OPD",
-                                                    "description":[
+                                                    "description": [
                                                         {
-                                                            "info":"",
-                                                            "contact_name":"",
-                                                            "phone":""
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
                                                         }
                                                     ],
-                                                    "children":[]
+                                                    "children": []
                                                 }
                                             ]
                                         },
@@ -866,48 +906,48 @@ data = {
                                                     "phone": " 0913109671"
                                                 }
                                             ],
-                                             "_children": [
-														{
-				                                            "name": "Emergency",
-				                                            "full_name": "Emergency Sugery",
-				                                            "parent": "OR",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "Dr. Birhanu Nega",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                     	{
-				                                            "name": "General",
-				                                            "full_name": "General Sugery",
-				                                            "parent": "OR",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "Dr. Nebiyu",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        },
-				                                     	{
-				                                            "name": "Minor",
-				                                            "full_name": "Minor Sugery",
-				                                            "parent": "OR",
-				                                            "description": [
-				                                                {
-				                                                    "info": "",
-				                                                    "contact_name": "",
-				                                                    "phone": ""
-				                                                }
-				                                            ],
-				                                            "children": []
-				                                        }
+                                            "_children": [
+                                                {
+                                                    "name": "Emergency",
+                                                    "full_name": "Emergency Sugery",
+                                                    "parent": "OR",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "Dr. Birhanu Nega",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "General",
+                                                    "full_name": "General Sugery",
+                                                    "parent": "OR",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "Dr. Nebiyu",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "Minor",
+                                                    "full_name": "Minor Sugery",
+                                                    "parent": "OR",
+                                                    "description": [
+                                                        {
+                                                            "info": "",
+                                                            "contact_name": "",
+                                                            "phone": ""
+                                                        }
+                                                    ],
+                                                    "children": []
+                                                }
 
-				                                   ]
+                                            ]
                                         },
                                         {
                                             "name": "Biomedical",
@@ -1185,7 +1225,7 @@ data = {
                                                     "phone": "0911998348 "
                                                 }
                                             ],
-                                            "children": [
+                                            "_children": [
                                                 {
                                                     "name": "Training & Dev't",
                                                     "full_name": "HR Training and Development",

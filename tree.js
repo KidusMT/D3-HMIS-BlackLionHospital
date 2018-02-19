@@ -18,11 +18,18 @@ $(document).ready(function () {
             .append("g")
             .attr("transform", "translate (" + margin.left + "," + margin.top + ")");
         root = treeData;
+        root.all_children = root.children;
 
+        root.children.forEach(function (d) {
+            d.hidden = false; d.all_children = d.children; d.children.forEach(
+                function (d) { d.hidden = false; d.all_children = d.children; }
+            );
+        });
+        root.hidden = false;
         update(root);
         function update(source) {
             // Compute the new tree layout.
-            var nodes = tree.nodes(root).reverse(),
+            var nodes = tree.nodes(root).filter(function (d) { return !d.hidden; }).reverse(),
                 links = tree.links(nodes);
             // Normalize for fixed-depth.
             nodes.forEach(function (d) { d.y = d.depth * 70; });
@@ -116,12 +123,14 @@ $(document).ready(function () {
                 d.children = null;
                 if (d._children) {
                     d._children.forEach(function (n) { n.hidden = true; });
-
                     if (d.parent) {
+                        console.log(d.name + "2" + d.parent.all_children)
                         d.parent.children = d.parent.all_children;
-                        d.parent.children.forEach(function (n) {
-                            n.hidden = false;
-                        });
+                        if (d.parent.children) {
+                            d.parent.children.forEach(function (n) {
+                                n.hidden = false;
+                            });
+                        }
                     }
                 }
             } else {
@@ -131,10 +140,13 @@ $(document).ready(function () {
                     d.children.forEach(function (n) { n.hidden = false; });
 
                     if (d.parent) {
+                        d.parent.all_children = d.parent.children;
                         d.parent.children = [d,];
-                        d.parent.children.filter(function (n) { return n !== d; }).forEach(function (n) {
-                            n.hidden = true;
-                        });
+                        if (d.parent.children) {
+                            d.parent.children.filter(function (n) { return n !== d; }).forEach(function (n) {
+                                n.hidden = true;
+                            });
+                        }
                     }
                 }
             }
