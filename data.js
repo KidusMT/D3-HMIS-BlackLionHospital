@@ -137,7 +137,7 @@ data = {
 				                                            "children": []
 				                                        },
 				                                     	{
-				                                            "name": "Emergency nurse coordinator",
+				                                            "name": "ER coordinator",
 				                                            "full_name": "Emergency Nurse coordinator",
 				                                            "parent": "Nursing",
 				                                            "description": [

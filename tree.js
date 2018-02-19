@@ -118,7 +118,7 @@ $(document).ready(function () {
                 if (d.parent.children) {
                     d.parent.children.forEach(function (d) {
                         if (d.children != null) {
-                            d._children = d.children
+                            d._children = d.children;
                             d.children = null;
                         }
                     });
