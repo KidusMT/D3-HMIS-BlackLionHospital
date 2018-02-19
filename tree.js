@@ -114,17 +114,29 @@ $(document).ready(function () {
             if (d.children) {
                 d._children = d.children;
                 d.children = null;
-            } else {
-                if (d.parent.children) {
-                    d.parent.children.forEach(function (d) {
-                        if (d.children != null) {
-                            d._children = d.children;
-                            d.children = null;
-                        }
-                    });
+                if (d._children) {
+                    d._children.forEach(function (n) { n.hidden = true; });
+
+                    if (d.parent) {
+                        d.parent.children = d.parent.all_children;
+                        d.parent.children.forEach(function (n) {
+                            n.hidden = false;
+                        });
+                    }
                 }
+            } else {
                 d.children = d._children;
                 d._children = null;
+                if (d.children) {
+                    d.children.forEach(function (n) { n.hidden = false; });
+
+                    if (d.parent) {
+                        d.parent.children = [d,];
+                        d.parent.children.filter(function (n) { return n !== d; }).forEach(function (n) {
+                            n.hidden = true;
+                        });
+                    }
+                }
             }
             update(d);
         }
