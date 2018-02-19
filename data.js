@@ -82,7 +82,89 @@ data = {
                                                     "phone": "0913017215"
                                                 }
                                             ],
-                                            "children": []
+                                           
+                                            "_children": [
+														{
+				                                            "name": "Outpatient",
+				                                            "full_name": "Outpatient nurse coordinator",
+				                                            "parent": "Nursing",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                     	{
+				                                            "name": "Inpatient",
+				                                            "full_name": "Inpatient nurse coordinator",
+				                                            "parent": "Nursing",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "OR",
+				                                            "full_name": "Operating Theatre nurse coordinator",
+				                                            "parent": "Nursing",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "Management",
+				                                            "full_name": "Nurse Management council",
+				                                            "parent": "Nursing",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                     	{
+				                                            "name": "Emergency nurse coordinator",
+				                                            "full_name": "Emergency Nurse coordinator",
+				                                            "parent": "Nursing",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "Supervisor",
+				                                            "full_name": "Nurse Supervisor Office",
+				                                            "parent": "Nursing",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        }
+
+
+                                            ]
                                         },
                                         {
                                             "name": "Clinical Dep.",
@@ -108,7 +190,114 @@ data = {
                                                     "phone": "0911803341"
                                                 }
                                             ],
-                                            "children": []
+                                            "_children": [
+														{
+				                                            "name": "Outpatient",
+				                                            "full_name": "Outpatient case team",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "Molla",
+				                                                    "phone": "0911332498"
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                     	{
+				                                            "name": "Inpatient",
+				                                            "full_name": "Inpatient case team",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "Berhanu ",
+				                                                    "contact_name": "Berhanu",
+				                                                    "phone": "0912113944"
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "Emergency",
+				                                            "full_name": "Emergency case team",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "Weldtinsea",
+				                                                    "phone": "0913683307"
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "Oncology",
+				                                            "full_name": "Oncology case team",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "Lidia ",
+				                                                    "phone": "0913146570"
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                     	{
+				                                            "name": "supply & mngt",
+				                                            "full_name": "Drug supply and Management case team",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "Mr. Bizuayehu",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "Research",
+				                                            "full_name": "Research Education and Reduce Policy Case team",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "kaleab",
+				                                                    "phone": "0912401783"
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "C.Pharmacy",
+				                                            "full_name": "Clinical Pharmacy case team",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "sofia ",
+				                                                    "phone": "0911031231"
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                        {
+				                                            "name": "Compounding",
+				                                            "full_name": "Compounding and small scale",
+				                                            "parent": "Pharmacy",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "Mr. Bizuayehu",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        }
+
+
+                                            ]
                                         },
                                         {
                                             "name": "Diagnostics",
@@ -147,7 +336,48 @@ data = {
                                                     "phone": " 0913109671"
                                                 }
                                             ],
-                                            "children": []
+                                             "_children": [
+														{
+				                                            "name": "Emergency",
+				                                            "full_name": "Emergency Sugery",
+				                                            "parent": "OR",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "Dr. Birhanu Nega",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                     	{
+				                                            "name": "General",
+				                                            "full_name": "General Sugery",
+				                                            "parent": "OR",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "Dr. Nebiyu",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        },
+				                                     	{
+				                                            "name": "Minor",
+				                                            "full_name": "Minor Sugery",
+				                                            "parent": "OR",
+				                                            "description": [
+				                                                {
+				                                                    "info": "",
+				                                                    "contact_name": "",
+				                                                    "phone": ""
+				                                                }
+				                                            ],
+				                                            "children": []
+				                                        }
+
+				                                   ]
                                         },
                                         {
                                             "name": "Biomedical",
